@@ -1,0 +1,6 @@
+model\Salarie.class
+test\TestSalarie.class
+model\Prestataire.class
+test\TestPrestataire.class
+model\Intervenant.class
+model\Societe.class
