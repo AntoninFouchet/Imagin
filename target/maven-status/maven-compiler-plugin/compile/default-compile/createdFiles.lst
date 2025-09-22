@@ -3,6 +3,7 @@ test\TestCategorie.class
 test\TestSalarie.class
 test\TestPrestataire.class
 model\Societe.class
+model\Projet.class
 model\Categorie.class
 model\Prestataire.class
 model\Intervenant.class
