@@ -1,6 +1,8 @@
 model\Salarie.class
+test\TestCategorie.class
 test\TestSalarie.class
-model\Prestataire.class
 test\TestPrestataire.class
-model\Intervenant.class
 model\Societe.class
+model\Categorie.class
+model\Prestataire.class
+model\Intervenant.class

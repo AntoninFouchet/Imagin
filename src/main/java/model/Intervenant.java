@@ -4,6 +4,7 @@ public abstract class Intervenant {
     private int id;
     private String nom;
     private String prenom;
+    private Categorie categorie;
     
 
     public Intervenant() {
@@ -15,6 +16,11 @@ public abstract class Intervenant {
         this.prenom = prenom;
     }
 
+    public Categorie getCategorie() {
+        return categorie;
+    }
+
+    
     public int getId() {
         return id;
     }
@@ -38,8 +44,16 @@ public abstract class Intervenant {
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
+
+    public void setCategorie(Categorie categorie) {
+        this.categorie = categorie;
+    }
+
+    
     
     public abstract double calculCoutProjet (int nbJours);
+    
+    
     
     
 
