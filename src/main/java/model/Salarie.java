@@ -2,7 +2,7 @@ package model;
 
 public class Salarie extends Intervenant {
     private String dtEmbauche;
-    private String echelon;
+    private int echelon;
     
     private float coutSalarie = 500;
     
@@ -11,7 +11,7 @@ public class Salarie extends Intervenant {
         super();
     }
 
-    public Salarie(int id, String nom, String prenom, String dtEmbauche, String echelon) {
+    public Salarie(int id, String nom, String prenom, String dtEmbauche, int echelon) {
         super(id, nom, prenom);
         this.dtEmbauche = dtEmbauche;
         this.echelon = echelon;
@@ -25,11 +25,11 @@ public class Salarie extends Intervenant {
         this.dtEmbauche = dtEmbauche;
     }
 
-    public String getEchelon() {
+    public int getEchelon() {
         return echelon;
     }
 
-    public void setEchelon(String echelon) {
+    public void setEchelon(int echelon) {
         this.echelon = echelon;
     }
 

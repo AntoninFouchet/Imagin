@@ -19,7 +19,7 @@ public class TestSalarie {
         s.setNom("test");
         s.setPrenom("test");
         s.setDtEmbauche("test");
-        s.setEchelon("test");
+        s.setEchelon(1);
         
         int nbJours = 100;
         double coutProjet = s.calculCoutProjet(nbJours);

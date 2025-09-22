@@ -31,7 +31,7 @@ public class TestPrestataire {
         p1.setForfait(true);
         p1.setCoutJournalier(10);
         
-        Salarie salarie = new Salarie(2,"Jack", "Uzi","2025-05-05", "255");
+        Salarie salarie = new Salarie(2,"Jack", "Uzi","2025-05-05", 255);
         
         
         
